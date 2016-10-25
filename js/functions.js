@@ -59,4 +59,9 @@ $(document).ready(function() {
       });
    });
 
+
+   $('#download_button').click(function() {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.newmweb.llauderesv.mobileweb";
+   }); // End of click function...
+
 });

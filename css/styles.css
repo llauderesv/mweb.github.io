@@ -282,6 +282,7 @@ body {
 #section_one_p {
    font-size: 18px;
    font-weight: 500;
+   text-align: justify;
 }
 
 #main_container {
@@ -315,8 +316,8 @@ body {
 }
 
 #footer_link, #footer_link_two  {
-   list-style-type: none; 
-   display: inline; 
+   list-style-type: none;
+   display: inline;
 }
 
 #footer_link > li{
@@ -330,7 +331,7 @@ body {
 }
 
 #footer_link_three {
-   list-style-type: none; 
+   list-style-type: none;
 }
 
 #footer_link_three > li {
@@ -424,4 +425,21 @@ body {
    #compiler_two {
       text-align: center;
    }
+}
+
+#download_button {
+   border-radius: 4px;
+   font-family: Arial;
+   font-weight: 700;
+   color: #FFF;
+   background-color: #000;
+   padding: 15px;
+   width: 250px;
+   transition: all 0.5s ease-in-out;
+}
+
+#download_button:hover {
+   color: #000;
+   background-color: #FFF;
+   transition: all 0.5s ease-in-out;
 }

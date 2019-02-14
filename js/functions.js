@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+   // Set year
+   const date = new Date();
+   $('#year').text(date.getFullYear());
+
    var i = 0;
 
    setInterval(function() {
